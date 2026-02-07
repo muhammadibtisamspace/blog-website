@@ -23,7 +23,7 @@ const Header = () => {
             <form className='  max-w-[500px] scale-75 flex justify-between sm:scale-100 mx-auto mt-10 border hover:shadow-xs transition-shadow border-black shadow-[7px_7px_0px_#000000] rounded-2xl'>
                 <input type="email" placeholder='Enter Your Email' className='pl-4 outline-none py-4' />
                 <button type='submit'
-                className='border-black px-4 active:bg-gray-600 active:text-white font-semibold '>Subscribe</button>
+                className='border-black px-4 active:bg-gray-600 rounded-2xl active:text-white font-semibold '>Subscribe</button>
             </form>
         </div>
     </div>
