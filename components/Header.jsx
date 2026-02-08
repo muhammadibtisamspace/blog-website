@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='py-4 px-4 md:px-12 lg:px-28'>
         <div className='flex justify-between items-center'>
-            <Image src={assets.logo} alt="The Logo of website" width={180} className='w-[130px] sm:w-auto'/>
+            <Image src={assets.logo} alt="The Logo of website" width={180} className='w-[130px] h-10 sm:w-auto'/>
             <button className='flex items-center gap-2 font-medium py-1 px-3 
             sm:py-3 sm:px-6 border border-solid border-black rounded-2xl
              hover:shadow-xs shadow-[7px_7px_0px_#000000] transition-shadow'>
